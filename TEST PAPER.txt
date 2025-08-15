@@ -3,6 +3,116 @@ CDD Cabinet Selection Test
 NAME: 
 BRANCH:
 
+OOPS QUESTION
+
+Problem:
+Design a simple system using object-oriented principles where we have a base class Person and a derived class Student.
+•	The Person class should have:
+o	name (String)
+o	age (int)
+o	A method displayDetails() that prints the name and age.
+•	The Student class should inherit from Person and add:
+o	rollNumber (int)
+o	course (String)
+o	Override the displayDetails() method to print all four attributes.
+Requirements:
+1.	Use proper constructors, encapsulation (private fields and getters/setters), and method overriding.
+2.	In the main function, create one Student object and call the displayDetails() method.
+Language: Java / Python / C++ (Student’s choice)
+✅ Sample Output:
+Name: Ananya  
+Age: 20  
+Roll Number: 101  
+Course: B.Tech CSE
+
+JAVA
+
+// Write your code below
+class Person {
+    // TODO: private fields for name, age
+
+    // TODO: Constructor
+
+    // TODO: Getters and Setters
+
+    public void displayDetails() {
+        // TODO: Print name and age
+    }
+}
+
+class Student extends Person {
+    // TODO: private fields for rollNumber, course
+
+    // TODO: Constructor (call super constructor for name & age)
+
+    // TODO: Getters and Setters
+
+    @Override
+    public void displayDetails() {
+        // TODO: Print name, age, rollNumber, and course
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // TODO: Create Student object and call displayDetails()
+    }
+}
+
+
+PYTHON
+
+# Write your code below
+class Person:
+    # TODO: Constructor for name, age
+    # TODO: Getters and setters
+
+    def displayDetails(self):
+        # TODO: Print name and age
+
+class Student(Person):
+    # TODO: Constructor for name, age, rollNumber, course
+    # TODO: Getters and setters
+
+    def displayDetails(self):
+        # TODO: Print all attributes
+
+if __name__ == "__main__":
+    # TODO: Create Student object and call displayDetails()
+
+
+CPP
+
+#include <iostream>
+using namespace std;
+
+class Person {
+    // TODO: private fields for name, age
+public:
+    // TODO: Constructor
+    // TODO: Getters and Setters
+    virtual void displayDetails() {
+        // TODO: Print name and age
+    }
+};
+
+class Student : public Person {
+    // TODO: private fields for rollNumber, course
+public:
+    // TODO: Constructor (call base class constructor)
+    // TODO: Getters and Setters
+    void displayDetails() override {
+        // TODO: Print name, age, rollNumber, and course
+    }
+};
+
+int main() {
+    // TODO: Create Student object and call displayDetails()
+    return 0;
+}
+
+
+
 DSA QUESTIONS
 
 1. Find the Child Who Has the Ball After K Seconds
@@ -196,117 +306,3 @@ class Solution {
         
     }
 }
-
-
-OOPS QUESTION
-
-Problem:
-Design a simple system using object-oriented principles where we have a base class Person and a derived class Student.
-•	The Person class should have:
-o	name (String)
-o	age (int)
-o	A method displayDetails() that prints the name and age.
-•	The Student class should inherit from Person and add:
-o	rollNumber (int)
-o	course (String)
-o	Override the displayDetails() method to print all four attributes.
-Requirements:
-1.	Use proper constructors, encapsulation (private fields and getters/setters), and method overriding.
-2.	In the main function, create one Student object and call the displayDetails() method.
-Language: Java / Python / C++ (Student’s choice)
-✅ Sample Output:
-Name: Ananya  
-Age: 20  
-Roll Number: 101  
-Course: B.Tech CSE
-
-JAVA
-
-// Write your code below
-class Person {
-    // TODO: private fields for name, age
-
-    // TODO: Constructor
-
-    // TODO: Getters and Setters
-
-    public void displayDetails() {
-        // TODO: Print name and age
-    }
-}
-
-class Student extends Person {
-    // TODO: private fields for rollNumber, course
-
-    // TODO: Constructor (call super constructor for name & age)
-
-    // TODO: Getters and Setters
-
-    @Override
-    public void displayDetails() {
-        // TODO: Print name, age, rollNumber, and course
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        // TODO: Create Student object and call displayDetails()
-    }
-}
-
-
-PYTHON
-
-# Write your code below
-class Person:
-    # TODO: Constructor for name, age
-    # TODO: Getters and setters
-
-    def displayDetails(self):
-        # TODO: Print name and age
-
-class Student(Person):
-    # TODO: Constructor for name, age, rollNumber, course
-    # TODO: Getters and setters
-
-    def displayDetails(self):
-        # TODO: Print all attributes
-
-if __name__ == "__main__":
-    # TODO: Create Student object and call displayDetails()
-
-
-CPP
-
-#include <iostream>
-using namespace std;
-
-class Person {
-    // TODO: private fields for name, age
-public:
-    // TODO: Constructor
-    // TODO: Getters and Setters
-    virtual void displayDetails() {
-        // TODO: Print name and age
-    }
-};
-
-class Student : public Person {
-    // TODO: private fields for rollNumber, course
-public:
-    // TODO: Constructor (call base class constructor)
-    // TODO: Getters and Setters
-    void displayDetails() override {
-        // TODO: Print name, age, rollNumber, and course
-    }
-};
-
-int main() {
-    // TODO: Create Student object and call displayDetails()
-    return 0;
-}
-
-
-
-
-
