@@ -1,6 +1,10 @@
 # 📄 Coding Test – CDD Cabinet Selection Test
 
-## **Section 1 – OOP Question**
+## **Section 1 - MCQS**
+
+Link -> https://forms.gle/27L9VcgZjRMtGzHZ7
+
+## **Section 2 – OOP Question**
 
 ### **Problem**
 
@@ -38,7 +42,7 @@ Languages allowed: **Java / Python / C++**
 
 ---
 
-## **Section 2 – DSA Questions**
+## **Section 3 – DSA Questions**
 
 ### **Submission Rules**
 
