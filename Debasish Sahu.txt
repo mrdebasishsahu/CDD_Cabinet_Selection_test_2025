@@ -1,0 +1,57 @@
+public class Main {
+  public static void main (string []argu)
+  {
+
+    class person
+    {
+        string.name = new name(system.in);
+        int age = new age (system.in)
+        public void displaydetails(){
+             system.out.println("name is ")  
+    stsyem.out.println("age is 20")
+    
+        }
+    }
+    class student extends person{
+
+displaydetails(
+    system.out.println("roll number is 101")  
+    stsyem.out.println("course is B.TECH CSE")
+    )
+}
+    }
+  }
+
+
+
+2. def solution 
+
+     for (1 <= prices.length <= 3 * 104)
+        if (0 <= prices[i] <= 104)
+           print("profit is  ",i)
+
+
+
+    
+
+4.
+class Solution {
+    public int mySqrt(int x) {
+        int x= x*x;
+        system.out.println("the solution is ", x)
+    }
+}
+
+
+
+
+5.
+def Solution
+      int  nums1.length == m + n
+        int nums2.length == n
+        if(0 <=  && n <= 200) 
+           if (1 <= m + n <= 200)
+              then  
+                  -10^9 <= nums1[i], nums2[j] <= 10^9
+    }
+}
